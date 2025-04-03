@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>HTML Target Frames</title>
+   </head>
+	<frameset rows = "20%,70%,10%">
+	<frame src = "header.html" />
+   	<frameset cols = "200, *">
+      	<frame src = "menu.html" />
+      	<frame src = "main.html" name = "main_page" />
+	</frameset>
+      	<frame src = "footer.html" />
+      <noframes>
+         <body>Your browser does not support frames.</body>
+      </noframes>
+   </frameset>	
+</html>
